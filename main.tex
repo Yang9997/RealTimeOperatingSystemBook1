@@ -1,0 +1,49 @@
+\documentclass[12pt,a4paper]{book}
+
+% 中文支持（如不需要中文可以删掉）
+\usepackage[UTF8]{ctex}
+
+% 版面
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+% 图片
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+% 代码块（技术书必备）
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    columns=fullflexible
+}
+
+% 超链接
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+% \begin{document}
+
+% \frontmatter
+% \include{preface}
+
+% \mainmatter
+% \include{tex/chapter1}
+% \include{tex/chapter2}
+% \include{tex/chapter3}
+
+% \appendix
+% \include{appendix}
+
+% \end{document}
+
+\begin{document}
+
+\include{tex/chapter00}
+\include{tex/chapter01}
+\include{tex/chapter02}
+\include{tex/chapter03}
+
+\end{document}
