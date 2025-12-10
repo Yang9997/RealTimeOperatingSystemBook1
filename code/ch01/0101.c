@@ -4,11 +4,11 @@ void main() {
     InitialiseSystem();
 
     // 应用程序代码
-    while (true) {
-        AcquireTemperature();
-        ProcessTemperature();
-        CalculateControlAction();
-        SetActuatorPosition();
-        WaitForNextCycle();
-    }
-}
+//     while (true) {
+//         AcquireTemperature();
+//         ProcessTemperature();
+//         CalculateControlAction();
+//         SetActuatorPosition();
+//         WaitForNextCycle();
+//     }
+// }
